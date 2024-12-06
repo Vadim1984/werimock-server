@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  wiremock:
+    container_name: mock-server-api
+    image: "holomekc/wiremock-gui:latest"
+    volumes:
+      - ./src/main/resources/wiremock:/home/wiremock/storage
+    ports:
+      - "9997:8089"
+      - "9996:8088"
+    environment:
+      JAVA_OPTIONS: "-Xmx512m"
+      WIREMOCK_OPTIONS: "--port=8089,--https-port=8088,--max-request-journal=1000,--global-response-templating,--root-dir=/home/wiremock/storage"
