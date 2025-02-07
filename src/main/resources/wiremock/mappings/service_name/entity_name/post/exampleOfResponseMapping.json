@@ -2,7 +2,7 @@
   "priority": 7,
   "request": {
     "method": "POST",
-    "urlPath": "/testService1/entity1/getAll",
+    "urlPath": "/testService1/entity1",
     "headers": {
       "Content-Type": {
         "equalTo": "application/json"
@@ -17,6 +17,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "service_name/entity_name/get/exampleOfResponse.json"
+    "bodyFileName": "service_name/entity_name/post/exampleOfResponse.json"
   }
 }

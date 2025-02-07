@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "data": [
+    {
+      "Description": "hello from mock service",
+      "requestPath": "{{request.path}}",
+      "requestBody-CounterpartyProperty": "{{jsonPath request.body '$.CounterpartyProperty'}}"
+    }
+  ]
+}

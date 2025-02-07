@@ -7,7 +7,8 @@
 
  example of request:
 
-- url - http://localhost:9997/testService1/entity1/getAll
+POST
+- url - http://localhost:9997/testService1/entity1
 - body: 
 ```json
 {
