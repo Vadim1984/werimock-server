@@ -16,3 +16,7 @@ POST
     "Recipient":""
 }
 ```
+
+Documentation:
+
+[retrieve request values in response](https://wiremock.org/docs/response-templating/)
